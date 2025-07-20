@@ -1,0 +1,245 @@
+@charset UTF-8;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2列 */
+  gap: 60px;
+  padding: 60px;
+}
+
+
+/* 画像を正方形に表示 */
+.image-box {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 正方形に保つ */
+ 
+}
+
+li{
+  list-style: none;
+}
+ 
+
+
+.products_topPage h2{
+  margin: 60px 80px;
+ font-style: normal;
+ letter-spacing: 0.09em;
+}
+
+
+
+
+.products-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.item dl {
+  text-align: center;
+ 
+}
+
+.item dt {
+  font-weight: bold;
+  margin-top: 10px;
+   font-style: normal;
+  font-size: 13px;
+}
+
+.item dd {
+  margin: 5px 0 20px;
+  font-size: 12px;
+}
+
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+.text_about {
+  margin: 20px 20px;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.aboutPage {
+  margin: 0 0;
+}
+
+
+.sns-link{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.topPage .sns-link{
+  color: #fff;
+}
+
+.topPage .logo{
+  color: #fff;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.pagination {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+}
+
+
+.pagination .current {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+.company_topPage {
+  margin: 0 0;
+}
+
+.products_topPage{
+ margin: 0 0;
+ width: 100%;
+}
+
+.about_text{
+  margin: 60px 80px;
+  letter-spacing: 0.2em;
+  font-style: normal;
+  font-size: 13px;
+  height: 100vh;
+}
+
+.company_text {
+ margin: 60px 80px;
+ letter-spacing: 0.2em;
+ font-style: normal;
+ font-size: 15px;
+ 
+}
+
+
+
+.company_information dd{
+  margin: 30px 0;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.company_information dt{
+  margin:30px 0;
+  text-align: left;
+}
+
+.map{
+  margin: 60px 0;
+   aspect-ratio:16/9 ;
+}
+ 
+.map iframe{
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 0;
+}
+
+
+.topPage {
+  background-image:url(https://images.unsplash.com/photo-1623538071521-d2a28d2f4942?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 0;
+
+} 
+
+.top_main{
+  height: 100vh;
+  color: #fff;
+  padding: 120px;
+}
+
+.top_text{
+  font-size: 50px;
+  text-align: left;
+}
+
+
+
+
+
+.header-menu {
+  background-color:#33333370;
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+ 
+  
+ 
+}
+ 
+:visited{
+  color: #fff;
+  text-decoration-line: none;
+}
+
+
+.logo{
+  text-align: center;
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+  .products_topPage {
+    width: 100%;
+  }
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  gap: 60px;
+  padding: 60px;
+}
+}
